@@ -70,3 +70,6 @@ formatting_data/**/*.geojson
 
 # Ignore logs
 *.log
+
+# Ignore folder with deprecated items
+/deprecated

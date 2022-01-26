@@ -26,7 +26,7 @@ machine urs.earthdata.nasa.gov
 
 ## Submitting jobs to Hyp3 API using S1-Enumerator
 
-Use [0_Aleutian_Example.ipynb](0_Aleutian_Example.ipynb) to see how an Aleutian AOI can be used to submit jobs to hyp3.
+Use [0_Aleutian_Enumeration_Example.ipynb](0_Aleutian_Enumeration_Example.ipynb) to see how an Aleutian AOI can be used to submit jobs to hyp3. It's pretty verbose, but demonstrates how to enumerate a time-series of GUNW products.
 
 ## Translating KMZs to Geojsons
 

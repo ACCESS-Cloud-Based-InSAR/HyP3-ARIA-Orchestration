@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "Oklahoma", "path_number": 107, "min_days_backward": 364, "month_range_lower": 6, "month_range_upper": 10, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -100.596681925848699, 35.028672021682368, 3000.0 ], [ -97.832295878291617, 35.427014597194713, 3000.0 ], [ -98.088707284307205, 36.700382546918597, 3000.0 ], [ -100.901124542698597, 36.306685163844861, 3000.0 ], [ -100.596681925848699, 35.028672021682368, 3000.0 ] ] ] } },
+{ "type": "Feature", "properties": { "aoi_name": "Oklahoma", "path_number": 107, "min_days_backward": 0, "month_range_lower": 6, "month_range_upper": 10, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -100.596681925848699, 35.028672021682368, 3000.0 ], [ -97.832295878291617, 35.427014597194713, 3000.0 ], [ -98.088707284307205, 36.700382546918597, 3000.0 ], [ -100.901124542698597, 36.306685163844861, 3000.0 ], [ -100.596681925848699, 35.028672021682368, 3000.0 ] ] ] } }
+]
+}

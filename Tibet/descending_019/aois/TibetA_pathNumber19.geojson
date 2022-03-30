@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "TibetA", "path_number": 19, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 85.660406333656681, 39.816022712565577, 0.0 ], [ 88.550564003412561, 39.425764721842818, 0.0 ], [ 89.575946846794409, 43.356997980929627, 0.0 ], [ 86.489938780933329, 43.737642373214697, 0.0 ], [ 85.660406333656681, 39.816022712565577, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "aoi_name": "TibetA", "path_number": 19, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 85.660406333656681, 39.816022712565577, 0.0 ], [ 88.550564003412561, 39.425764721842818, 0.0 ], [ 89.575946846794409, 43.356997980929627, 0.0 ], [ 86.489938780933329, 43.737642373214697, 0.0 ], [ 85.660406333656681, 39.816022712565577, 0.0 ] ] ] } }
+]
+}

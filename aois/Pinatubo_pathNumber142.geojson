@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "Pinatubo", "path_number": 142, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 119.812945128774501, 14.690511697449971, 0.0 ], [ 122.097514221475393, 15.124654710812781, 0.0 ], [ 121.985869941774894, 15.714161228982739, 0.0 ], [ 119.687368231918796, 15.27896303566469, 0.0 ], [ 119.812945128774501, 14.690511697449971, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "aoi_name": "Pinatubo", "path_number": 142, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 119.812945128774501, 14.690511697449971, 0.0 ], [ 122.097514221475393, 15.124654710812781, 0.0 ], [ 121.985869941774894, 15.714161228982739, 0.0 ], [ 119.687368231918796, 15.27896303566469, 0.0 ], [ 119.812945128774501, 14.690511697449971, 0.0 ] ] ] } }
+]
+}

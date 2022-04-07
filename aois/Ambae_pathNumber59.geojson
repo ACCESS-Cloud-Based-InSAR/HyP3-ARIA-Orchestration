@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "Ambae", "path_number": 59, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 166.833418407870113, -15.31270408890083, 0.0 ], [ 169.117055855075392, -15.83812610460707, 0.0 ], [ 169.197761705699605, -15.50647636013872, 0.0 ], [ 166.911042601973207, -14.98841999885321, 0.0 ], [ 166.833418407870113, -15.31270408890083, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "aoi_name": "Ambae", "path_number": 59, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 166.833418407870113, -15.31270408890083, 0.0 ], [ 169.117055855075392, -15.83812610460707, 0.0 ], [ 169.197761705699605, -15.50647636013872, 0.0 ], [ 166.911042601973207, -14.98841999885321, 0.0 ], [ 166.833418407870113, -15.31270408890083, 0.0 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "Sabancaya", "path_number": 25, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.815785957556272, -15.144409782819331, 0.0 ], [ -73.926958121501301, -15.580354815696969, 0.0 ], [ -71.65288055609166, -16.101051707156429, 0.0 ], [ -71.549548313772405, -15.651405745548489, 0.0 ], [ -73.815785957556272, -15.144409782819331, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "aoi_name": "Sabancaya", "path_number": 25, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.815785957556272, -15.144409782819331, 0.0 ], [ -73.926958121501301, -15.580354815696969, 0.0 ], [ -71.65288055609166, -16.101051707156429, 0.0 ], [ -71.549548313772405, -15.651405745548489, 0.0 ], [ -73.815785957556272, -15.144409782819331, 0.0 ] ] ] } }
+]
+}

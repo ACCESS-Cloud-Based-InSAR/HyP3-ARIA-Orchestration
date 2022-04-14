@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "Iceland", "path_number": 16, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -19.555273268021558, 66.521927437516766, 0.0 ], [ -24.999992889061708, 66.066563676891207, 0.0 ], [ -23.33371283496858, 63.160440640564673, 0.0 ], [ -18.466948859709809, 63.585422276556891, 0.0 ], [ -19.555273268021558, 66.521927437516766, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "aoi_name": "Iceland", "path_number": 16, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -19.555273268021558, 66.521927437516766, 0.0 ], [ -24.999992889061708, 66.066563676891207, 0.0 ], [ -23.33371283496858, 63.160440640564673, 0.0 ], [ -18.466948859709809, 63.585422276556891, 0.0 ], [ -19.555273268021558, 66.521927437516766, 0.0 ] ] ] } }
+]
+}

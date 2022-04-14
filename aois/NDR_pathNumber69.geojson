@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "NDR", "path_number": 69, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.5628333001454, 4.653901122914424, 0.0 ], [ -73.345228552719334, 4.189293358159348, 0.0 ], [ -73.261711117257235, 4.593179906355206, 0.0 ], [ -75.477109387396936, 5.065451905505196, 0.0 ], [ -75.5628333001454, 4.653901122914424, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "aoi_name": "NDR", "path_number": 69, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.5628333001454, 4.653901122914424, 0.0 ], [ -73.345228552719334, 4.189293358159348, 0.0 ], [ -73.261711117257235, 4.593179906355206, 0.0 ], [ -75.477109387396936, 5.065451905505196, 0.0 ], [ -75.5628333001454, 4.653901122914424, 0.0 ] ] ] } }
+]
+}

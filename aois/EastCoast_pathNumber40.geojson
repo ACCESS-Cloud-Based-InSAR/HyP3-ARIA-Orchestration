@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "EastCoast", "path_number": 40, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.60234561092922, 40.43067770141127, 0.0 ], [ -69.686319416526331, 40.006365171389511, 0.0 ], [ -68.650905012156599, 43.890121769616023, 0.0 ], [ -71.761985454076154, 44.2698687943412, 0.0 ], [ -72.60234561092922, 40.43067770141127, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "aoi_name": "EastCoast", "path_number": 40, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.60234561092922, 40.43067770141127, 0.0 ], [ -69.686319416526331, 40.006365171389511, 0.0 ], [ -68.650905012156599, 43.890121769616023, 0.0 ], [ -71.761985454076154, 44.2698687943412, 0.0 ], [ -72.60234561092922, 40.43067770141127, 0.0 ] ] ] } }
+]
+}

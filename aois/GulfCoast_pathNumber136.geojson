@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "GulfCoast", "path_number": 136, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -95.110658474129423, 29.108612830046791, 0.0 ], [ -92.559537999963311, 29.513982818290081, 0.0 ], [ -93.414002801330668, 33.797927077037997, 0.0 ], [ -96.075504890002279, 33.480465459318381, 0.0 ], [ -95.110658474129423, 29.108612830046791, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "aoi_name": "GulfCoast", "path_number": 136, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -95.110658474129423, 29.108612830046791, 0.0 ], [ -92.559537999963311, 29.513982818290081, 0.0 ], [ -93.414002801330668, 33.797927077037997, 0.0 ], [ -96.075504890002279, 33.480465459318381, 0.0 ], [ -95.110658474129423, 29.108612830046791, 0.0 ] ] ] } }
+]
+}

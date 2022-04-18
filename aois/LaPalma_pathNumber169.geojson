@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "LaPalma", "path_number": 169, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -19.419489004297379, 28.651301960920431, 0.0 ], [ -16.856580530268982, 28.26536963948492, 0.0 ], [ -16.762386011479101, 28.705843703849531, 0.0 ], [ -19.336788978117589, 29.104990052773129, 0.0 ], [ -19.419489004297379, 28.651301960920431, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "aoi_name": "LaPalma", "path_number": 169, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -19.419489004297379, 28.651301960920431, 0.0 ], [ -16.856580530268982, 28.26536963948492, 0.0 ], [ -16.762386011479101, 28.705843703849531, 0.0 ], [ -19.336788978117589, 29.104990052773129, 0.0 ], [ -19.419489004297379, 28.651301960920431, 0.0 ] ] ] } }
+]
+}

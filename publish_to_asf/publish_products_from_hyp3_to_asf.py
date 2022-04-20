@@ -64,10 +64,10 @@ if __name__ == '__main__':
     parser.add_argument('--hyp3-url', default='https://hyp3-isce.asf.alaska.edu',
                         choices=['https://hyp3-isce.asf.alaska.edu', 'https://hyp3-tibet.asf.alaska.edu'])
     parser.add_argument('--topic-arn',
-                        default='arn:aws:sns:us-east-1:406893895021:ingest-prod-jobs',
-                        choices=['arn:aws:sns:us-east-1:406893895021:ingest-prod-jobs',
-                                 'arn:aws:sns:us-east-1:406893895021:ingest-test-jobs'])
+                        default='arn:aws:sns:us-east-1:406893895021:ingest-test-jobs',
+                        choices=['arn:aws:sns:us-east-1:406893895021:ingest-test-jobs'
+                                 'arn:aws:sns:us-east-1:406893895021:ingest-prod-jobs'])
     parser.add_argument('--job-type', default='INSAR_ISCE', choices=['INSAR_ISCE', 'INSAR_ISCE_TEST'])
-    parser.add_argument('project-name')
+    parser.add_argument('project_name')
     args = parser.parse_args()
     main(args.project_name, args.topic_arn, args.hyp3_url, args.job_type)

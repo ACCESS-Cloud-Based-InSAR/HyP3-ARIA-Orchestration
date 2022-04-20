@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "aoi_name": "Ambrym", "path_number": 59, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 169.030468953276312, -16.193431958618291, 0.0 ], [ 166.743673763907708, -15.677251603281119, 0.0 ], [ 166.646252062880109, -16.088032029951119, 0.0 ], [ 168.933651335813209, -16.594451128222229, 0.0 ], [ 169.030468953276312, -16.193431958618291, 0.0 ] ] ] } },
-{ "type": "Feature", "properties": { "aoi_name": "Ambrym", "path_number": 59, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 169.030468953276312, -16.193431958618291, 0.0 ], [ 166.743673763907708, -15.677251603281119, 0.0 ], [ 166.646252062880109, -16.088032029951119, 0.0 ], [ 168.933651335813209, -16.594451128222229, 0.0 ], [ 169.030468953276312, -16.193431958618291, 0.0 ] ] ] } }
+{ "type": "Feature", "properties": { "aoi_name": "Ambrym", "path_number": 59, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 169.030468953276312, -16.193431958618291, 0.0 ], [ 166.743673763907708, -15.677251603281119, 0.0 ], [ 166.646252062880109, -16.088032029951119, 0.0 ], [ 168.933651335813209, -16.594451128222229, 0.0 ], [ 169.030468953276312, -16.193431958618291, 0.0 ] ] ] } }
 ]
 }

@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "aoi_name": "India", "path_number": 19, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 81.386040642561042, 17.967363784430109, 0.0 ], [ 83.719752123872325, 17.554936417809049, 0.0 ], [ 84.228942407587923, 20.024028015037992, 0.0 ], [ 81.855032671044526, 20.437016502172849, 0.0 ], [ 81.386040642561042, 17.967363784430109, 0.0 ] ] ] } },
-{ "type": "Feature", "properties": { "aoi_name": "India", "path_number": 19, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 81.386040642561042, 17.967363784430109, 0.0 ], [ 83.719752123872325, 17.554936417809049, 0.0 ], [ 84.228942407587923, 20.024028015037992, 0.0 ], [ 81.855032671044526, 20.437016502172849, 0.0 ], [ 81.386040642561042, 17.967363784430109, 0.0 ] ] ] } }
+{ "type": "Feature", "properties": { "aoi_name": "India", "path_number": 19, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 81.386040642561042, 17.967363784430109, 0.0 ], [ 83.719752123872325, 17.554936417809049, 0.0 ], [ 84.228942407587923, 20.024028015037992, 0.0 ], [ 81.855032671044526, 20.437016502172849, 0.0 ], [ 81.386040642561042, 17.967363784430109, 0.0 ] ] ] } }
 ]
 }

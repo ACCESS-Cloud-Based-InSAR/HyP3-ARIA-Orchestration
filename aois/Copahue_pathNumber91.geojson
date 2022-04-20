@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "aoi_name": "Copahue", "path_number": 91, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.778429144648769, -38.449959297954557, 0.0 ], [ -69.999021222414839, -37.781847899138533, 0.0 ], [ -70.14446450928051, -37.402936778375228, 0.0 ], [ -72.927600221168575, -38.069970687927153, 0.0 ], [ -72.778429144648769, -38.449959297954557, 0.0 ] ] ] } },
-{ "type": "Feature", "properties": { "aoi_name": "Copahue", "path_number": 91, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.778429144648769, -38.449959297954557, 0.0 ], [ -69.999021222414839, -37.781847899138533, 0.0 ], [ -70.14446450928051, -37.402936778375228, 0.0 ], [ -72.927600221168575, -38.069970687927153, 0.0 ], [ -72.778429144648769, -38.449959297954557, 0.0 ] ] ] } }
+{ "type": "Feature", "properties": { "aoi_name": "Copahue", "path_number": 91, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.778429144648769, -38.449959297954557, 0.0 ], [ -69.999021222414839, -37.781847899138533, 0.0 ], [ -70.14446450928051, -37.402936778375228, 0.0 ], [ -72.927600221168575, -38.069970687927153, 0.0 ], [ -72.778429144648769, -38.449959297954557, 0.0 ] ] ] } }
 ]
 }

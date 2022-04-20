@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "aoi_name": "CA", "path_number": 71, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.425780093876696, 32.646230176888423, 0.0 ], [ -116.780406111766993, 32.247819252340712, 0.0 ], [ -115.555144667043095, 37.447375414819767, 0.0 ], [ -118.376839228274605, 37.85850159478224, 0.0 ], [ -119.425780093876696, 32.646230176888423, 0.0 ] ] ] } },
-{ "type": "Feature", "properties": { "aoi_name": "CA", "path_number": 71, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.425780093876696, 32.646230176888423, 0.0 ], [ -116.780406111766993, 32.247819252340712, 0.0 ], [ -115.555144667043095, 37.447375414819767, 0.0 ], [ -118.376839228274605, 37.85850159478224, 0.0 ], [ -119.425780093876696, 32.646230176888423, 0.0 ] ] ] } }
+{ "type": "Feature", "properties": { "aoi_name": "CA", "path_number": 71, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.425780093876696, 32.646230176888423, 0.0 ], [ -116.780406111766993, 32.247819252340712, 0.0 ], [ -115.555144667043095, 37.447375414819767, 0.0 ], [ -118.376839228274605, 37.85850159478224, 0.0 ], [ -119.425780093876696, 32.646230176888423, 0.0 ] ] ] } }
 ]
 }

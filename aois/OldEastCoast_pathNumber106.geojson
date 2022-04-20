@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "aoi_name": "OldEastCoast", "path_number": 106, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.319703584242362, 36.88175753752563, 0.0 ], [ -73.50981847625259, 37.256543122124697, 0.0 ], [ -74.656222702107428, 42.616116725559479, 0.0 ], [ -77.659415324379523, 42.24309035499676, 0.0 ], [ -76.319703584242362, 36.88175753752563, 0.0 ] ] ] } },
-{ "type": "Feature", "properties": { "aoi_name": "OldEastCoast", "path_number": 106, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.319703584242362, 36.88175753752563, 0.0 ], [ -73.50981847625259, 37.256543122124697, 0.0 ], [ -74.656222702107428, 42.616116725559479, 0.0 ], [ -77.659415324379523, 42.24309035499676, 0.0 ], [ -76.319703584242362, 36.88175753752563, 0.0 ] ] ] } }
+{ "type": "Feature", "properties": { "aoi_name": "OldEastCoast", "path_number": 106, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.319703584242362, 36.88175753752563, 0.0 ], [ -73.50981847625259, 37.256543122124697, 0.0 ], [ -74.656222702107428, 42.616116725559479, 0.0 ], [ -77.659415324379523, 42.24309035499676, 0.0 ], [ -76.319703584242362, 36.88175753752563, 0.0 ] ] ] } }
 ]
 }

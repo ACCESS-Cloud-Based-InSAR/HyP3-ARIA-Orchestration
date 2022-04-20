@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "aoi_name": "Mayon", "path_number": 134, "min_days_backward": 364, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 121.653953154987903, 13.42076011695044, 0.0 ], [ 123.920718460126395, 12.98501930070617, 0.0 ], [ 124.100494521876101, 13.858063245392639, 0.0 ], [ 121.820525681583007, 14.303647141357249, 0.0 ], [ 121.653953154987903, 13.42076011695044, 0.0 ] ] ] } },
-{ "type": "Feature", "properties": { "aoi_name": "Mayon", "path_number": 134, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors_ref": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 121.653953154987903, 13.42076011695044, 0.0 ], [ 123.920718460126395, 12.98501930070617, 0.0 ], [ 124.100494521876101, 13.858063245392639, 0.0 ], [ 121.820525681583007, 14.303647141357249, 0.0 ], [ 121.653953154987903, 13.42076011695044, 0.0 ] ] ] } }
+{ "type": "Feature", "properties": { "aoi_name": "Mayon", "path_number": 134, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 121.653953154987903, 13.42076011695044, 0.0 ], [ 123.920718460126395, 12.98501930070617, 0.0 ], [ 124.100494521876101, 13.858063245392639, 0.0 ], [ 121.820525681583007, 14.303647141357249, 0.0 ], [ 121.653953154987903, 13.42076011695044, 0.0 ] ] ] } }
 ]
 }

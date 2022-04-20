@@ -16,7 +16,7 @@ def generate_ingest_message(hyp3_job_dict: dict):
         'DeliveryTime': datetime.datetime.now(tz=datetime.timezone.utc).replace(tzinfo=None).isoformat(),
         'ResponseTopic': {
             'Region': 'us-east-1',
-            'TopicArn': 'arn:aws:sns:us-east-1:406893895021:hyp3-ingest-responses',
+            'Arn': 'arn:aws:sns:us-east-1:406893895021:hyp3-ingest-responses',
         },
         'Browse': {
             'Bucket': bucket,
@@ -36,9 +36,9 @@ def generate_ingest_message(hyp3_job_dict: dict):
 def publish_ingest_message(message_payload: dict, topic_arn: str):
     topic_region = topic_arn.split(':')[3]
     sns = boto3.client('sns', region_name=topic_region)
-    sns.publish_message(
+    sns.publish(
         TopicArn=topic_arn,
-        Message=json.dump(message_payload),
+        Message=json.dumps(message_payload),
     )
 
 

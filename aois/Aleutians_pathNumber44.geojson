@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "aoi_name": "Aleutians", "path_number": 44, "min_days_backward": 0, "month_range_lower": 6, "month_range_upper": 10, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -163.983902, 54.993172, 0.0 ], [ -167.884476, 55.393131, 0.0 ], [ -168.351654, 53.609127, 0.0 ], [ -164.618698, 53.213657, 0.0 ], [ -163.983902, 54.993172, 0.0 ] ] ] } }
+{ "type": "Feature", "properties": { "aoi_name": "Aleutians", "path_number": 44, "min_days_backward": 0, "month_range_lower": 6, "month_range_upper": 10, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -168.299660701243312, 53.781472254802168, 0.0 ], [ -164.554391528782105, 53.391199498877832, 0.0 ], [ -164.052515667629393, 54.822039554198071, 0.0 ], [ -167.9261447542425, 55.22379999671665, 0.0 ], [ -168.299660701243312, 53.781472254802168, 0.0 ] ] ] } }
 ]
 }

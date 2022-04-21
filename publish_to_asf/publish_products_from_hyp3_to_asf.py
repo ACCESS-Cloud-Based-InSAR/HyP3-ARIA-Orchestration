@@ -47,8 +47,8 @@ def main(project_name: str, topic_arn: str, hyp3_url: str, job_type: str):
     jobs = hyp3.find_jobs(status_code='SUCCEEDED', job_type=job_type, name=project_name)
     print(f'Publishing {len(jobs)} {job_type} jobs from {hyp3_url} to {topic_arn}')
     for job in jobs:
-        print(f'Publishing job ID {job.job_id}')
         ingest_message = generate_ingest_message(job.to_dict())
+        print(f'Publishing job ID {job.job_id}, product name {ingest_message["ProductName"]}')
         # TODO check if product exists in CMR and only publish if not
         publish_ingest_message(ingest_message, topic_arn)
 

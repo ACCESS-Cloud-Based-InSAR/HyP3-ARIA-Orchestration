@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "GulfCoast", "path_number": 165, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -90.81059628211753, 28.181184358604991, 0.0 ], [ -88.266548412691904, 28.581007217010399, 0.0 ], [ -89.074633481014203, 32.711913730010203, 0.0 ], [ -91.71654896744495, 32.337407055976257, 0.0 ], [ -90.81059628211753, 28.181184358604991, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "GulfCoast", "path_number": 165, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "job_name": "GulfCoast_165"}, "geometry": {"type": "Polygon", "coordinates": [[[-90.81059628211753, 28.18118435860499, 0.0], [-88.2665484126919, 28.5810072170104, 0.0], [-89.0746334810142, 32.7119137300102, 0.0], [-91.71654896744495, 32.33740705597626, 0.0], [-90.81059628211753, 28.18118435860499, 0.0]]]}}]}

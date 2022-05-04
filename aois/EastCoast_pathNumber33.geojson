@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "EastCoast", "path_number": 33, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.790342638586878, 38.9924876270045, 0.0 ], [ -71.904064808277639, 39.39369167333242, 0.0 ], [ -73.09012861045511, 44.943816090261187, 0.0 ], [ -76.24590587459123, 44.59359185959503, 0.0 ], [ -74.790342638586878, 38.9924876270045, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "EastCoast", "path_number": 33, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "job_name": "EastCoast_33"}, "geometry": {"type": "Polygon", "coordinates": [[[-74.79034263858688, 38.9924876270045, 0.0], [-71.90406480827764, 39.39369167333242, 0.0], [-73.09012861045511, 44.94381609026119, 0.0], [-76.24590587459123, 44.59359185959503, 0.0], [-74.79034263858688, 38.9924876270045, 0.0]]]}}]}

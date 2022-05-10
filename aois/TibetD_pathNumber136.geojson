@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "TibetD", "path_number": 126, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.817285706710607, 31.756092792595119, 0.0 ], [ 75.138813952508599, 28.199438445795021, 0.0 ], [ 77.662597617497681, 27.79580843192468, 0.0 ], [ 78.374178017312005, 31.12770488958235, 0.0 ], [ 79.245434970345087, 35.194404321685717, 0.0 ], [ 76.546618036195113, 35.583135189798668, 0.0 ], [ 75.817285706710607, 31.756092792595119, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "TibetD", "path_number": 126, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 2, "azimuth_mismatch": 50, "deploy_url": "https://hyp3-tibet.asf.alaska.edu", "job_name": "TibetD_136"}, "geometry": {"type": "Polygon", "coordinates": [[[75.8172857067106, 31.75609279259512, 0.0], [75.1388139525086, 28.19943844579502, 0.0], [77.66259761749768, 27.79580843192468, 0.0], [78.374178017312, 31.12770488958235, 0.0], [79.24543497034509, 35.19440432168572, 0.0], [76.54661803619511, 35.58313518979867, 0.0], [75.8172857067106, 31.75609279259512, 0.0]]]}}]}

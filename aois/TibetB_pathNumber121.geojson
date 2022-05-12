@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "TibetB", "path_number": 121, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 87.155962043099834, 37.152109042600877, 0.0 ], [ 86.309883743347939, 33.011462931673137, 0.0 ], [ 84.855933396097143, 25.40271661459424, 0.0 ], [ 87.280665536938372, 24.987835245885631, 0.0 ], [ 87.774870540106292, 27.37262403081813, 0.0 ], [ 89.586354606396512, 35.282431754868902, 0.0 ], [ 90.47894747749659, 38.959345512993082, 0.0 ], [ 87.611471494038852, 39.349654019959502, 0.0 ], [ 87.155962043099834, 37.152109042600877, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "TibetB", "path_number": 121, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 2, "azimuth_mismatch": 75, "deploy_url": "https://hyp3-tibet.asf.alaska.edu", "min_days_backward_timesubset": "365,180,90", "num_neighbors_timesubset": "1,1,1", "job_name": "TibetB_121"}, "geometry": {"type": "Polygon", "coordinates": [[[87.15596204309983, 37.15210904260088, 0.0], [86.30988374334794, 33.01146293167314, 0.0], [84.85593339609714, 25.40271661459424, 0.0], [87.28066553693837, 24.98783524588563, 0.0], [87.77487054010629, 27.37262403081813, 0.0], [89.58635460639651, 35.2824317548689, 0.0], [90.47894747749659, 38.95934551299308, 0.0], [87.61147149403885, 39.3496540199595, 0.0], [87.15596204309983, 37.15210904260088, 0.0]]]}}]}

@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "CA", "path_number": 64, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -118.463014751527993, 32.316117772022103, 0.0 ], [ -115.837243382113101, 32.731723809270093, 0.0 ], [ -117.434902035229797, 40.623880227201717, 0.0 ], [ -120.3397252622092, 40.226775431935963, 0.0 ], [ -120.024324598636596, 38.947511162087487, 0.0 ], [ -118.463014751527993, 32.316117772022103, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "CA", "path_number": 64, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3, "azimuth_mismatch": 100, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "min_days_backward_timesubset": "365", "num_neighbors_timesubset": "1", "job_name": "CA_64"}, "geometry": {"type": "Polygon", "coordinates": [[[-118.463014751528, 32.3161177720221, 0.0], [-115.8372433821131, 32.73172380927009, 0.0], [-117.4349020352298, 40.62388022720172, 0.0], [-120.3397252622092, 40.22677543193596, 0.0], [-120.0243245986366, 38.94751116208749, 0.0], [-118.463014751528, 32.3161177720221, 0.0]]]}}]}

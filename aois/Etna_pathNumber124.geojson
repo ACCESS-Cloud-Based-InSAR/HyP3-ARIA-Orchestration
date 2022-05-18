@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "Etna", "path_number": 124, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 13.31809228705945, 38.278507621594322, 0.0 ], [ 13.19349280587898, 37.664821066165423, 0.0 ], [ 16.03914678688864, 37.281114726552651, 0.0 ], [ 16.192383404438338, 37.889401811611378, 0.0 ], [ 13.31809228705945, 38.278507621594322, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "Etna", "path_number": 124, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 2, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "job_name": "Etna_124"}, "geometry": {"type": "Polygon", "coordinates": [[[13.31809228705945, 38.27850762159432, 0.0], [13.19349280587898, 37.66482106616542, 0.0], [16.03914678688864, 37.28111472655265, 0.0], [16.19238340443834, 37.88940181161138, 0.0], [13.31809228705945, 38.27850762159432, 0.0]]]}}]}

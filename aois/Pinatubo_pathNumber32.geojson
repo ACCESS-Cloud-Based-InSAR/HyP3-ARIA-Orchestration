@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "Pinatubo", "path_number": 32, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 119.876347954759098, 14.86440693161051, 0.0 ], [ 122.154654765697501, 14.427523520502129, 0.0 ], [ 122.293238792082505, 15.09334221973022, 0.0 ], [ 120.000320823943994, 15.52454265889879, 0.0 ], [ 119.876347954759098, 14.86440693161051, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "Pinatubo", "path_number": 32, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 2, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "job_name": "Pinatubo_32"}, "geometry": {"type": "Polygon", "coordinates": [[[119.8763479547591, 14.86440693161051, 0.0], [122.1546547656975, 14.42752352050213, 0.0], [122.2932387920825, 15.09334221973022, 0.0], [120.000320823944, 15.52454265889879, 0.0], [119.8763479547591, 14.86440693161051, 0.0]]]}}]}

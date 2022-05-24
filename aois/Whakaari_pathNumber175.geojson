@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "Whakaari", "path_number": 175, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 176.465201554509406, -37.282198770246481, 0.0 ], [ 176.414126191500998, -37.408219960690467, 0.0 ], [ 179.150211734225707, -38.077686422739482, 0.0 ], [ 179.198611126391995, -37.939109510093758, 0.0 ], [ 176.465201554509406, -37.282198770246481, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "Whakaari", "path_number": 175, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 2, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "job_name": "Whakaari_175"}, "geometry": {"type": "Polygon", "coordinates": [[[176.4652015545094, -37.28219877024648, 0.0], [176.414126191501, -37.40821996069047, 0.0], [179.1502117342257, -38.07768642273948, 0.0], [179.198611126392, -37.93910951009376, 0.0], [176.4652015545094, -37.28219877024648, 0.0]]]}}]}

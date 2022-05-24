@@ -1,1 +1,7 @@
-{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "WestCoastS", "path_number": 42, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "min_days_backward_timesubset": "365", "num_neighbors_timesubset": "1", "job_name": "WestCoastS_42"}, "geometry": {"type": "Polygon", "coordinates": [[[-121.2167007178309, 43.95216803171552, 0.0], [-121.4086305756849, 43.06679426205599, 0.0], [-118.408706028, 42.68829291531919, 0.0], [-118.1816670250329, 43.56685742954284, 0.0], [-121.033569414413, 43.9295607305622, 0.0], [-121.2167007178309, 43.95216803171552, 0.0]]]}}]}
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "WestCoastS", "path_number": 42, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.216700717830903, 43.952168031715523, 0.0 ], [ -121.408630575684896, 43.066794262055993, 0.0 ], [ -118.408706028, 42.688292915319188, 0.0 ], [ -118.181667025032894, 43.566857429542843, 0.0 ], [ -121.033569414412995, 43.929560730562201, 0.0 ], [ -121.216700717830903, 43.952168031715523, 0.0 ] ] ] } }
+]
+}

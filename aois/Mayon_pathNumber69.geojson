@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "Mayon", "path_number": 69, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 122.242932452640602, 12.89873136791409, 0.0 ], [ 124.504035547772403, 13.341297851295449, 0.0 ], [ 124.442984497814294, 13.65879543568488, 0.0 ], [ 122.171874541882502, 13.213531311801701, 0.0 ], [ 122.242932452640602, 12.89873136791409, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "Mayon", "path_number": 69, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 2, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "job_name": "Mayon_69"}, "geometry": {"type": "Polygon", "coordinates": [[[122.2429324526406, 12.89873136791409, 0.0], [124.5040355477724, 13.34129785129545, 0.0], [124.4429844978143, 13.65879543568488, 0.0], [122.1718745418825, 13.2135313118017, 0.0], [122.2429324526406, 12.89873136791409, 0.0]]]}}]}

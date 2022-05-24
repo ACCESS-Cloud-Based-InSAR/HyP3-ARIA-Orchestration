@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "Sabancaya", "path_number": 25, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.815785957556272, -15.144409782819331, 0.0 ], [ -73.926958121501301, -15.580354815696969, 0.0 ], [ -71.65288055609166, -16.101051707156429, 0.0 ], [ -71.549548313772405, -15.651405745548489, 0.0 ], [ -73.815785957556272, -15.144409782819331, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "Sabancaya", "path_number": 25, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 2, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "job_name": "Sabancaya_25"}, "geometry": {"type": "Polygon", "coordinates": [[[-73.81578595755627, -15.14440978281933, 0.0], [-73.9269581215013, -15.58035481569697, 0.0], [-71.65288055609166, -16.10105170715643, 0.0], [-71.5495483137724, -15.65140574554849, 0.0], [-73.81578595755627, -15.14440978281933, 0.0]]]}}]}

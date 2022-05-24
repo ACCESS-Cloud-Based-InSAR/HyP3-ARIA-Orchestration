@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "PapuaNewGuinea", "path_number": 67, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 150.875240856664391, -5.899687166201137, 0.0 ], [ 153.046755658794012, -5.380876449890352, 0.0 ], [ 152.285450294143288, -1.837133134750225, 0.0 ], [ 150.095950082358002, -2.316240663181107, 0.0 ], [ 150.875240856664391, -5.899687166201137, 0.0 ] ] ] } }
+]
+}

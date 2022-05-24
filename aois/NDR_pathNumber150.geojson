@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "NDR", "path_number": 150, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.540603017973424, 4.502346986683458, 0.0 ], [ -73.354834590109419, 4.958043355864784, 0.0 ], [ -73.462788199604049, 5.456000662302315, 0.0 ], [ -75.652327561475119, 5.002513764094996, 0.0 ], [ -75.540603017973424, 4.502346986683458, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "NDR", "path_number": 150, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 2, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "job_name": "NDR_150"}, "geometry": {"type": "Polygon", "coordinates": [[[-75.54060301797342, 4.502346986683458, 0.0], [-73.35483459010942, 4.958043355864784, 0.0], [-73.46278819960405, 5.456000662302315, 0.0], [-75.65232756147512, 5.002513764094996, 0.0], [-75.54060301797342, 4.502346986683458, 0.0]]]}}]}

@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "Ruapehu", "path_number": 81, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 174.338892428342206, -39.185950887824227, 0.0 ], [ 174.533947457434493, -39.717253927879057, 0.0 ], [ 177.375705097727888, -39.078248281413138, 0.0 ], [ 177.148266296406405, -38.532397225517137, 0.0 ], [ 174.338892428342206, -39.185950887824227, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "Ruapehu", "path_number": 81, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 2, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "job_name": "Ruapehu_81"}, "geometry": {"type": "Polygon", "coordinates": [[[174.3388924283422, -39.18595088782423, 0.0], [174.5339474574345, -39.71725392787906, 0.0], [177.3757050977279, -39.07824828141314, 0.0], [177.1482662964064, -38.53239722551714, 0.0], [174.3388924283422, -39.18595088782423, 0.0]]]}}]}

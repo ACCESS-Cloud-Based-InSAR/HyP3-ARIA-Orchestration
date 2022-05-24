@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "Turkey", "path_number": 58, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 28.787537898237371, 36.198315567467517, 0.0 ], [ 31.505173776466119, 36.594559713434499, 0.0 ], [ 30.521570053247761, 41.383108483014787, 0.0 ], [ 27.564002809359891, 40.987421166533217, 0.0 ], [ 28.787537898237371, 36.198315567467517, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "Turkey", "path_number": 58, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "min_days_backward_timesubset": "365", "num_neighbors_timesubset": "2", "job_name": "Turkey_58"}, "geometry": {"type": "Polygon", "coordinates": [[[28.78753789823737, 36.19831556746752, 0.0], [31.50517377646612, 36.5945597134345, 0.0], [30.52157005324776, 41.38310848301479, 0.0], [27.56400280935989, 40.98742116653322, 0.0], [28.78753789823737, 36.19831556746752, 0.0]]]}}]}

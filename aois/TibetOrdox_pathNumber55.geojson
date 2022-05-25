@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "TibetOrdox", "path_number": 55, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 102.679620884916602, 36.911892051248323, 0.0 ], [ 103.747443941338503, 32.350348471685443, 0.0 ], [ 106.353263395049197, 32.707922970653527, 0.0 ], [ 105.620648676921704, 36.584956796613433, 0.0 ], [ 104.604502626698803, 41.370565405518448, 0.0 ], [ 101.642812540425794, 40.977149993248453, 0.0 ], [ 102.679620884916602, 36.911892051248323, 0.0 ] ] ] } }
+]
+}

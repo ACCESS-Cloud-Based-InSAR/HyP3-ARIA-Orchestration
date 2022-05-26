@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "TibetPamir", "path_number": 27, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 74.032266218883919, 36.60452510740285, 0.0 ], [ 75.648675678388955, 29.042667983211359, 0.0 ], [ 78.14360139199384, 29.337433002251, 0.0 ], [ 76.575452396549963, 37.754299272375867, 0.0 ], [ 74.821525877520756, 45.550216912209912, 0.0 ], [ 71.687580013808571, 45.186369702967752, 0.0 ], [ 74.032266218883919, 36.60452510740285, 0.0 ] ] ] } }
+]
+}

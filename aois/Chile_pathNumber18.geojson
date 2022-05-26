@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "Chile", "path_number": 18, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.289856171666557, -31.017099948558631, 0.0 ], [ -70.771079267439205, -30.417147047428379, 0.0 ], [ -65.004050987523797, -44.455236649567439, 0.0 ], [ -68.14410365619996, -45.203002086384259, 0.0 ], [ -69.633868731614186, -41.095991206118406, 0.0 ], [ -69.763373249570847, -41.126162331621558, 0.0 ], [ -71.930395233147678, -34.933189321159837, 0.0 ], [ -71.874286780225589, -34.919566846437036, 0.0 ], [ -73.289856171666557, -31.017099948558631, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "Chile", "path_number": 18, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "min_days_backward_timesubset": "365", "num_neighbors_timesubset": "3", "job_name": "Chile_18"}, "geometry": {"type": "Polygon", "coordinates": [[[-73.28985617166656, -31.01709994855863, 0.0], [-70.7710792674392, -30.41714704742838, 0.0], [-65.0040509875238, -44.45523664956744, 0.0], [-68.14410365619996, -45.20300208638426, 0.0], [-69.63386873161419, -41.095991206118406, 0.0], [-69.76337324957085, -41.12616233162156, 0.0], [-71.93039523314768, -34.93318932115984, 0.0], [-71.87428678022559, -34.919566846437036, 0.0], [-73.28985617166656, -31.01709994855863, 0.0]]]}}]}

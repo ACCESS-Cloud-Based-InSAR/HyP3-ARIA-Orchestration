@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "Dalton", "path_number": 131, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -151.277243579450186, 68.068208128052973, 0.0 ], [ -145.498370061497013, 67.600653260755536, 0.0 ], [ -143.389023929126495, 70.188263941978917, 0.0 ], [ -149.95572516909499, 70.753340084853292, 0.0 ], [ -151.277243579450186, 68.068208128052973, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "Dalton", "path_number": 131, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3, "azimuth_mismatch": 5, "deploy_url": "https://hyp3-isce.asf.alaska.edu", "min_days_backward_timesubset": "365", "num_neighbors_timesubset": "3", "job_name": "Dalton_131"}, "geometry": {"type": "Polygon", "coordinates": [[[-151.2772435794502, 68.06820812805297, 0.0], [-145.498370061497, 67.60065326075554, 0.0], [-143.3890239291265, 70.18826394197892, 0.0], [-149.955725169095, 70.75334008485329, 0.0], [-151.2772435794502, 68.06820812805297, 0.0]]]}}]}

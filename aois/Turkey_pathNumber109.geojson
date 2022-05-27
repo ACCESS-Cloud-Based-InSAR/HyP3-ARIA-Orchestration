@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "Turkey", "path_number": 109, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.11365879783305, 35.254946758737397, 0.0 ], [ 25.656179194683141, 34.891886331041484, 0.0 ], [ 27.456282666312749, 42.351286893877592, 0.0 ], [ 24.70471574776299, 42.720273827453369, 0.0 ], [ 23.11365879783305, 35.254946758737397, 0.0 ] ] ] } }
+]
+}

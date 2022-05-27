@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "WNAM", "path_number": 100, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -113.213268270888307, 43.001037707490752, 0.0 ], [ -115.355368973299605, 32.257342568770767, 0.0 ], [ -112.746583359428698, 31.885729597714452, 0.0 ], [ -110.156235124891793, 42.666311641903, 0.0 ], [ -113.213268270888307, 43.001037707490752, 0.0 ] ] ] } }
+]
+}

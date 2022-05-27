@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "TibetTianShan", "path_number": 85, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 81.194605841775228, 40.33537012974552, 0.0 ], [ 84.16354955238215, 40.706388454472773, 0.0 ], [ 83.667280767686975, 43.17597310942589, 0.0 ], [ 82.971175745796316, 46.217733275352948, 0.0 ], [ 79.820109314912855, 45.849442813881502, 0.0 ], [ 81.194605841775228, 40.33537012974552, 0.0 ] ] ] } }
+]
+}

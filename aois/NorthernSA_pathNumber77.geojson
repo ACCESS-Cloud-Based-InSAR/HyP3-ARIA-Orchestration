@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_name": "NorthernSA", "path_number": 77, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.997911455214378, 2.05968593506209, 0.0 ], [ -70.774607680643172, 2.484881565890205, 0.0 ], [ -72.608423555881544, 11.333662890891031, 0.0 ], [ -74.788455557641967, 10.893577661356829, 0.0 ], [ -72.997911455214378, 2.05968593506209, 0.0 ] ] ] } }
+]
+}

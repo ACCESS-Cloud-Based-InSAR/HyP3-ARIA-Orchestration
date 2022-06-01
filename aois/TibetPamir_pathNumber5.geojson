@@ -1,7 +1,1 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "aoi_name": "TibetPamir", "path_number": 5, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 71.600291148001986, 41.19414739620111, 0.0 ], [ 69.989604802101283, 33.985466878079009, 0.0 ], [ 72.791459646581501, 33.618561611589762, 0.0 ], [ 73.99922357630021, 38.754801149090063, 0.0 ], [ 75.951232176910949, 45.887626578551433, 0.0 ], [ 72.646158563542315, 46.172845722635707, 0.0 ], [ 71.600291148001986, 41.19414739620111, 0.0 ] ] ] } }
-]
-}
+{"type": "FeatureCollection", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": [{"type": "Feature", "properties": {"aoi_name": "TibetPamir", "path_number": 5, "min_days_backward": 0, "month_range_lower": 1, "month_range_upper": 12, "num_neighbors": 4, "azimuth_mismatch": 50, "deploy_url": "https://hyp3-tibet.asf.alaska.edu", "min_days_backward_timesubset": "365,180,90", "num_neighbors_timesubset": "4,4,4", "job_name": "TibetPamir_5"}, "geometry": {"type": "Polygon", "coordinates": [[[71.60029114800199, 41.19414739620111, 0.0], [69.98960480210128, 33.98546687807901, 0.0], [72.7914596465815, 33.61856161158976, 0.0], [73.99922357630021, 38.75480114909006, 0.0], [75.95123217691095, 45.88762657855143, 0.0], [72.64615856354231, 46.17284572263571, 0.0], [71.60029114800199, 41.19414739620111, 0.0]]]}}]}

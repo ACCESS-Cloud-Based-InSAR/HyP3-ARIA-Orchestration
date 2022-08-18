@@ -16,7 +16,6 @@ from zipfile import ZipFile
 
 import fiona
 import geopandas as gpd
-import pandas as pd
 from rasterio.crs import CRS
 
 fiona.drvsupport.supported_drivers['kml'] = 'rw' # enable KML support which is disabled by default

@@ -54,10 +54,12 @@ def update_geojson(filename: str, parameters: dict):
                 if parameter_data != []:
                     parameter_data = ','.join(map(str, parameter_data))
 
+                '''
                 if parameter == 'min_days_backward_timesubset':
                     twindow = int(_get_value(data,'temporal_window_days_timesubset'))
                     parameter_data = [int(i) - round(twindow/2) for i in parameter_data.split(',')]
                     parameter_data = ','.join(map(str, parameter_data))
+                '''
 
             _set_value(data, parameter, parameter_data)
 
@@ -102,7 +104,7 @@ from shapely.geometry import Polygon, GeometryCollection
 from rasterio.crs import CRS
 import numpy as np
 
-def split_polygon(polygon: Polygon, split_lat: float) -> GeometryCollection:
+def _split_polygon(polygon: Polygon, split_lat: float) -> GeometryCollection:
     from shapely.ops import split
     from shapely.geometry import LineString
     
@@ -110,7 +112,7 @@ def split_polygon(polygon: Polygon, split_lat: float) -> GeometryCollection:
     #create line for splitting polygon
     dy = np.mean([abs(y2- np.round(y2)), abs(y1- np.round(y1))])
     split_line = LineString([(x1 - 1, split_lat), (x2 + 1, split_lat + dy)])
-    print('Split line:', split_line)
+    #print('Split line:', split_line)
     return split(polygon, split_line)
 
 def separate_df_geometries(df: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
@@ -135,16 +137,20 @@ def split_aoi(df_aoi: gpd.GeoDataFrame, split_lats: list) -> gpd.GeoDataFrame:
     #get aoi
     rm_flag = False
     for i, lat in enumerate(split_lats):
-        print(f'Split AOI at: {lat: .2f} lat')
-        if i > 0 and len(aoi.geoms)>1:
-            aoi_bounds = aoi.geoms[1]
-            aoi = split_polygon(aoi_bounds, float(lat))
+        print(f'{i}, Split AOI at: {lat: .2f} lat')
+        if i > 0 and len(aoi.geoms) > 1:
+            aoi_bounds = aoi.geoms[find_lower_part(aoi)]
+            aoi = _split_polygon(aoi_bounds, float(lat))
         else:
             if i != 0:
                 rm_flag = True
             aoi_bounds = aoi_geometry.unary_union
-            aoi = split_polygon(aoi_bounds, float(lat))
-        aoi_geometry.loc[i] = (df_aoi.path_number[0], shape(aoi.geoms[0]))
+            aoi = _split_polygon(aoi_bounds, float(lat))
+
+        #ensure right polygon segment (lower, starting from south) is saved
+        index = find_lower_part(aoi)
+        index += 1 if index == 0 else -1
+        aoi_geometry.loc[i] = (df_aoi.path_number[0], shape(aoi.geoms[index]))
         #Add the last part 
         if i == len(split_lats) - 1 and len(aoi.geoms)>1:
             aoi_geometry.loc[i+1] = (df_aoi.path_number[0], shape(aoi.geoms[1]))
@@ -155,7 +161,15 @@ def split_aoi(df_aoi: gpd.GeoDataFrame, split_lats: list) -> gpd.GeoDataFrame:
       
     return aoi_geometry
 
+def find_lower_part(aoi):
+    _, min_y1, _, max_y1 = aoi.geoms[0].bounds
+    _, min_y2, _, max_y2 = aoi.geoms[1].bounds
 
+    if np.mean([min_y1, max_y1]) > np.mean([min_y2, max_y2]):
+        index = 0
+    else:
+        index = 1
+    return index 
 
 ################################# PLOTTING ###############################
 
